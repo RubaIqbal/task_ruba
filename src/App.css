@@ -1,0 +1,87 @@
+body{
+  /* margin:20px; */
+  background-color: #fff;
+}
+
+.App-logo{
+  width:100px;
+  /* height:100px; */
+}
+
+ li{
+  margin: 10px;
+}
+
+.nav-li{
+  display: inline;
+}
+
+.nav-pills{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;  
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;  
+}
+
+.pageWrap{
+  padding: 20px
+}
+
+.para-text{
+  font-size: 14px;
+  line-height:  18px;
+}
+
+.nav-li .active{
+  background-color: gold;
+  color:Black ;
+  font-weight:bold;
+}
+
+.navbar .nav-pills .active {
+   background-color: gold;
+   color:Black ;
+   font-weight:bold;
+}
+
+.main-nav-active{
+  color: #000;
+}
+
+.main-nav{
+  color: #ccc;
+}
+
+.navbar .nav-pills >li >a {
+    color: grey;
+    background-color: white;
+    text-decoration:none;
+ }
+   .navbar .nav-pills > li > a:hover {
+     /* background-color: orange; */
+     color: black;
+ }
+
+ .navbar .nav-pills > li > a:active {
+  /* background-color: orange; */
+  /* color: red; */
+}
+ .navbar .nav-pills .active > a {
+    background-color: orange;
+     color: black;
+}
+
+.Nav_container{
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  box-shadow: 5px 0px 10px #888888;
+}
+
+
